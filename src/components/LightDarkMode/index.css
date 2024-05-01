@@ -1,0 +1,37 @@
+/* Write your CSS here */
+
+.light-dark-app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+}
+.light-dark-container {
+  background-color: #000000;
+  border-radius: 16px;
+  height: 25vh;
+  width: 50vw;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+
+}
+.light-dark-heading {
+  color: #fff;
+  font-size: 36px;
+  font-family: 'Roboto';
+  text-align: center;
+  font-weight: 600;
+  border-color: transparent;
+}
+.light-dark-button{
+  border-color:#000000;
+  background-color:#ffffff;
+  font-size:16px;
+  border-radius:8px;
+  height:5vh;
+  width:9vw;
+}
